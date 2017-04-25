@@ -1,4 +1,5 @@
 edgegestureservice                        u:object_r:edgegesture_service:s0
+pocket                                    u:object_r:pocket_service:s0
 
 # LiveDisplay
 lineagehardware                           u:object_r:lineage_hardware_service:s0
