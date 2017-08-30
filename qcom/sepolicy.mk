@@ -4,4 +4,5 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/revengeos/sepolicy/qcom
+    device/revengeos/sepolicy/qcom/common \
+    device/revengeos/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
