@@ -3,5 +3,8 @@
 # inherit from RevengeOS
 #
 
-BOARD_SEPOLICY_DIRS += \
-    device/revengeos/sepolicy/common
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+    device/revengeos/sepolicy/common/public
+
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    device/revengeos/sepolicy/common/private
