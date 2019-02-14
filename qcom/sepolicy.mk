@@ -4,5 +4,4 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/revengeos/sepolicy/qcom/common \
-    device/revengeos/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/lineage/sepolicy/qcom/vendor
