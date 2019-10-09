@@ -16,9 +16,6 @@
 /system/bin/backuptool_ab\.sh                     u:object_r:otapreopt_chroot_exec:s0
 /system/bin/backuptool_postinstall\.sh            u:object_r:otapreopt_chroot_exec:s0
 
-# Sysinit
-/system/bin/sysinit                     u:object_r:sysinit_exec:s0
-
 # Pocket judge
 /sys/kernel/pocket_judge(/.*)?	u:object_r:pocket_judge_sysfs:s0
 
